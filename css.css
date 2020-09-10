@@ -21,10 +21,12 @@ body{
 
 
 .container{
-width: 90%;
-margin: 50px auto;
-margin-top: 15%;
+width: 100vw;
+height: 100vh;
+display: grid;
 
+justify-content: center;
+align-content: center;
 }
 
 .heading {
@@ -37,8 +39,8 @@ margin-top: 15%;
 }
 
 .row {
-display: flex;
-justify-content: center;
+
+justify-self: center;
 }
 
 .card {
