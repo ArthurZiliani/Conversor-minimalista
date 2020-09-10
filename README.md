@@ -1,4 +1,4 @@
-# Conversor Binário para decimal 
+# Conversor Binário para decimal minimalista
 
 
 
