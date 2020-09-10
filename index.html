@@ -7,28 +7,37 @@
 
     , initial-scale=1.0">
     <link href="css.css" rel="stylesheet">
-    <title>Conversor binário para decimal</title>
+    <title>Conversor minimalista</title>
 </head>
 <body>
-    <h1> Insira um valor binário para conversão exemplo : 1010</h1>
+    
     <div class="container">
-        <div class="">
-            Numero para converter :
-            <input id ="valor"> </input>
-         </div>
-
-        <button id="btn" onclick="convert()">Converter</button>
-    <div>
-        <p>Resultado : </p>
-        <input id="resultado"></input>
-    </div>
-    </div>
-<script>document.getElementById("resultado").innerHTML =  bin2dec(valor);
-    function bin2dec(bin) {
-
-       parseInt(bin, 2).toString(10);
        
-    }
+        <div class="heading">
+            <h1>Conversor Binário para decimal Minimalista</h1>
+         </div>
+        <div class="row">
+            <div class="card">
+                <div class="card-header">
+                    <h1>Digite um número binário</h1>   
+                </div>
+                <div class="card-body">
+                    
+                 <input id ="valor"> </input>
+                    
+                 <button class="btn" id="btn" onclick="convert()">Converter</button>
+                    
+                 
+                </div>
+                <div class="card-footer">
+                    <h1>Número Decimal </h1>
+                <input id="resultado"></input>  
+                    </div>  
+            </div>
+
+        </div>    
+    </div>
+
 </script>
 </body>
 <script type="text/javascript" src="calculo.js"> 
